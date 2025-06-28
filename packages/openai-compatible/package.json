@@ -39,24 +39,17 @@
     }
   },
   "dependencies": {
-    "@ai-sdk/provider": "workspace:*",
-    "@ai-sdk/provider-utils": "workspace:*"
+    "@ai-sdk/provider": "latest",
+    "@ai-sdk/provider-utils": "latest"
   },
   "devDependencies": {
-    "@types/node": "20.17.24",
-    "@vercel/ai-tsconfig": "workspace:*",
-    "tsup": "^8",
-    "typescript": "5.8.3",
-    "zod": "3.25.49"
+    "@types/node": "^20.19.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.67"
   },
   "peerDependencies": {
     "zod": "^3.25.49"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "homepage": "https://ai-sdk.dev/docs",
   "repository": {

@@ -1,6 +1,8 @@
 packages:
-  - 'apps/*'
-  - 'packages/*'
-  - 'tools/*'
-  - 'examples/*'
-  - 'packages/rsc/tests/e2e/next-server'
+  - apps/*
+  - packages/*
+  - tools/*
+  - examples/*
+  - packages/rsc/tests/e2e/next-server
+onlyBuiltDependencies:
+  - esbuild
